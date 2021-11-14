@@ -1,0 +1,22 @@
+<mat-toolbar class="mat-elevation-z8 color1">
+    <button mat-icon-button *ngIf="sidenav.mode === 'side'" (click)="sidenav.toggle()">
+        <mat-icon *ngIf="!sidenav.opened">
+            menu
+        </mat-icon>
+        <mat-icon *ngIf="sidenav.opened">
+            close
+        </mat-icon>
+    </button>
+    IncentivaMo
+</mat-toolbar>
+
+<mat-sidenav-container>
+    <mat-sidenav #sidenav="matSidenav" class="mat-elevation-z8">
+        <app-sidenav></app-sidenav>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div class="content mat-elevation-z8">
+            Main content here!
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>

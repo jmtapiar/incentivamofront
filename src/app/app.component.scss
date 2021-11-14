@@ -1,0 +1,41 @@
+mat-toolbar {
+    background: #375e76;
+    color: white;
+    
+}
+
+.mat-drawer-container {
+    background-color: #e4efef;
+    
+}
+
+mat-sidenav {
+    margin: 10px;
+    width: 200px;
+    border-right: none;
+    background: #4d7c98;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    height: calc(100vh - 98px);
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #9fc1ca;
+    font-size: 2rem;
+    color: #9fc1ca;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+
